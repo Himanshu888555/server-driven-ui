@@ -1,0 +1,259 @@
+{   
+    "data":[
+        {   
+            "type":"text",
+            "data":[
+                {
+                "para":"using server driven",
+                "parastyle":{
+                    "fontSize":"40px"
+                }
+                },
+                {
+                "para":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "parastyle":{
+                    "fontSize":"10px",
+                    "fontWeight":"600"
+
+                }
+                }
+            ],
+            "action":[
+                {  
+                "type":"R-button",
+                "reason": "submit",
+                "action":{
+                    "url":"https://www.google.com"
+                },
+                "style":{
+                    "background": "linear-gradient(to right, gold, darkorange)",
+                    "color": "white",
+                    "--width": "350px",
+                    "--height": "calc(var(--width) / 4)",
+                    "width": "var(--width)",
+                    "height": "var(--height)",
+                    "padding":"10px",
+                    "text-align": "center",
+                    "line-height": "var(--height)",
+                    "font-size":"calc(var(--height) / 2.5)",
+                    "font-family": "sans-serif",
+                    "letter-spacing": "0.2em",
+                    "border": "1px solid darkgoldenrod",
+                    "border-radius": "2em",
+                    "transform": "perspective(500px) rotateY(-15deg)",
+                    "text-shadow": "6px 3px 2px rgba(0, 0, 0, 0.2)",
+                    "box-shadow": "2px 0 0 5px rgba(0, 0, 0, 0.2)",
+                    "transition": "0.5s",
+                    "position": "relative",
+                    "overflow": "hidden",
+                    "textDecoration":"none"
+                   }
+            }
+            ]
+        },
+        {
+            "type":"carousel",
+            "data":[
+                {
+                "imgs":"https://allhdwallpapers.com/wp-content/uploads/2015/06/Winnie-The-Pooh-6.jpg",
+                "alt":"",
+                "text":"This is the first sell of month",
+                "text1":"Nulla vitae elit libero, a pharetra augue mollis interdum.",
+                "actions":{  
+                        "type":"G-button",
+                        "reason": "submit",
+                        "style":{
+                            "border":"3px solid red",
+                            "textDecoration":"none",
+                            "borderRadius":"5px",
+                            "padding":"5px",
+                            "padding-left":"15px",
+                            "padding-right":"15px",
+                            "backgroundColor":"#FFFFFF"
+                            },
+                        "action":{
+                            "url":"https://www.google.com"
+                            }
+                    },
+                "style":{
+                    "borderRadius":"0%",
+                    "height":"500px"
+                        }
+                },
+                {
+                "imgs":"https://allhdwallpapers.com/wp-content/uploads/2015/06/Winnie-The-Pooh-5.jpg",
+                "alt":"first2",
+                "text":"do it",
+                "text1":"yes do it",
+                "actions":{  
+                        "type":"G-button",
+                        "reason": "submit",
+                        "style":{
+                            "border":"3px solid black",
+                            "textDecoration":"none",
+                            "borderRadius":"5px",
+                            "padding":"5px",
+                            "padding-left":"15px",
+                            "padding-right":"15px",
+                            "backgroundColor":"#FFFFFF"
+                                                    },
+                        "action":{
+                            "url":"https://www.tripdairy.com"
+                        }
+                    },
+                "style":{
+                    "borderRadius":"0%",
+                    "height":"500px"
+                        }
+                }
+            ]
+           
+        },  
+        {  
+            "type":"text",
+            "data":[
+                {
+                "para":"Hi I am Himanshu in first para",
+                "parastyle":{
+                    "fontSize":"40px"
+                }
+                },
+                {
+                "para":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+                "parastyle":{
+                        "fontSize":"10px",
+                        "fontWeight":"600"
+                }
+                }
+            ],
+            "action":[
+                {  
+                "type":"R-button",
+                "reason": "submit",
+                "action":{
+                    "url":"https://www.tripdairy.com"
+                },
+                "style":{
+                    "cursor": "pointer",
+                    "position": "relative",
+                    "padding": "0rem 0.5rem",
+                    "borderRadius": "3.75rem",
+                    "lineHeight": "3.5rem",
+                    "fontSize": "2rem",
+                    "display":"flex",
+                    "flexDirection":"row",
+                    "width":"20%",
+                    "textDecoration":"none",
+                    "justifyContent":"center",
+                    "fontWeight": "600",
+                    "border": "1px solid #012880",
+                    "background-image": "linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%)",
+                    "box-shadow": "0 1rem 1.25rem 0 rgba(22,75,195,0.50),0 -0.25rem 1.5rem rgba(110, 15, 155, 1) inset,0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,0 0.25rem 0.5rem 0 rgba(180, 70, 207, 1) inset"
+                }
+            }
+            ]
+        },
+        {
+            "type":"carousel",
+            "data":[
+                {
+                "imgs":"https://allhdwallpapers.com/wp-content/uploads/2015/06/Winnie-The-Pooh-9.jpg",
+                "alt":"first1",
+                "text":"First slide label",
+                "text1":"Nulla vitae elit libero, a pharetra augue mollis interdum.",
+                "actions":{  
+                        "type":"G-button",
+                        "reason": "submit",
+                        "style":{
+                            "border":"3px solid black",
+                            "textDecoration":"none",
+                            "borderRadius":"5px",
+                            "padding":"5px",
+                            "padding-left":"15px",
+                            "padding-right":"15px",
+                            "backgroundColor":"#FFFFFF"
+                            },
+                        "action":{
+                            "url":"https://www.google.com"
+                        }
+                    },
+                    "style":{
+                        "borderRadius":"0%",
+                        "height":"500px"
+                            }
+                },
+                {
+                "imgs":"https://allhdwallpapers.com/wp-content/uploads/2015/06/Winnie-The-Pooh-8.jpg",
+                "alt":"first2",
+                "text":"do it",
+                "text1":"yes do it",
+                "actions":{  
+                        "type":"G-button",
+                        "reason": "submit",
+                        "style":{
+                            "border":"3px solid black",
+                            "textDecoration":"none",
+                            "borderRadius":"5px",
+                            "backgroundColor":"#FFFFFF",
+                            "padding":"5px",
+                            "padding-left":"15px",
+                            "padding-right":"15px"
+                            },
+                        "action":{
+                            "url":"https://www.tripdairy.com"
+                        }
+                    },
+                    "style":{
+                        "borderRadius":"0%",
+                        "height":"500px"
+                            }
+                }
+            ]
+           
+        },
+        {  
+            "type":"text",
+            "data":[
+                {
+                "para":"Hi I am Himanshu in first para",
+                "parastyle":{
+                    "fontSize":"40px"
+                }
+                },
+                {
+                "para":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+                "parastyle":{
+                        "fontSize":"10px",
+                        "fontWeight":"600"
+                }
+                }
+            ],
+            "action":[
+                {  
+                "type":"R-button",
+                "reason": "submit",
+                "action":{
+                    "url":"https://www.tripdairy.com"
+                },
+                "style":{
+                    "cursor": "pointer",
+                    "position": "relative",
+                    "padding": "0rem 0.1rem",
+                    "borderRadius": "3.75rem",
+                    "lineHeight": "3.5rem",
+                    "fontSize": "2rem",
+                    "display":"flex",
+                    "flexDirection":"row",
+                    "width":"20%",
+                    "textDecoration":"none",
+                    "justifyContent":"center",
+                    "fontWeight": "600",
+                    "border": "1px solid #012880",
+                    "background-image": "linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%)",
+                    "box-shadow": "0 1rem 1.25rem 0 rgba(22,75,195,0.50),0 -0.25rem 1.5rem rgba(110, 15, 155, 1) inset,0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,0 0.25rem 0.5rem 0 rgba(180, 70, 207, 1) inset"
+                }
+            }
+            ]
+        }
+    ]
+}    
